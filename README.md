@@ -51,8 +51,8 @@ The ESP32 emulates a **generic USB HID mouse** for inputs (clicks/movement), spo
 
 ### 1. Clone & Prep Repo
 ```bash
-git clone https://github.com/YOURUSERNAME/WiFi-ESP32-Valorant-Cheat.git
-cd WiFi-ESP32-Valorant-Cheat
+git clone https://github.com/Sewer2K/Esp32Val.git
+cd Esp32Val
 ```
 
 ### 2. Flash ESP32
