@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository is a proof-of-concept for an **external Valorant cheat** using an **ESP32-S3-WROOM-1 N16R8**[ESP32 S3 Dev Board - 16MB Flash, 8MB PSRAM](https://www.robotics.org.za/ESP32-S3-N16R8-EXT) board for hardware-based aimbot and triggerbot functionality over WiFi. Unlike traditional Arduino setups, this leverages the ESP32's built-in WiFi for wireless communication, reducing cable clutter and potential detection vectors.
+This repository is a proof-of-concept for an **external Valorant cheat** using an **ESP32-S3-WROOM-1 N16R8**[ESP32 S3 Dev Board - 16MB Flash, 8MB PSRAM]([https://github.com/Megant88/Valorant-GUI-Cheat-Arduino](https://www.robotics.org.za/ESP32-S3-N16R8-EXT) board for hardware-based aimbot and triggerbot functionality over WiFi. Unlike traditional Arduino setups, this leverages the ESP32's built-in WiFi for wireless communication, reducing cable clutter and potential detection vectors.
 
 To avoid Valorant's anti-cheat (Vanguard) flagging direct screen captures (e.g., via `mss` or `pyautogui`), detection runs inside a **custom OBS plugin** that mimics the official **Game Capture Source**. The plugin captures the Valorant window safely (using OBS's graphics hook for DirectX/OpenGL interception), processes frames with OpenCV-like logic for enemy color/body detection, and sends trigger/aim commands to the ESP32 via HTTP over local WiFi.
 
